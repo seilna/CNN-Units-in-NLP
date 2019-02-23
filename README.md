@@ -20,3 +20,9 @@ This repository contains an implementation of our ICLR 2019 paper;
 ## Code
 
 The code will be available soon.
+
+---
+
+## Notes
+
+Last edit: Feb 23, 2019
