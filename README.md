@@ -1,9 +1,6 @@
 
 # Overview
----
-
 <img src="figures/teaser.png" width="400px" align="right">
-
 
 This repository contains an implementation of our ICLR 2019 paper;
 
@@ -52,6 +49,21 @@ We also discovered that several units tend to capture the concepts that goes bey
 
 ### A Demonstrative Pronoun
 <img src="figures/a_demonstrative_pronoun/1.png" width="800px" align="center" clear="both">
+
+### Similar Meaning or Role
+<img src="figures/similar_meaning_or_role/1.png" width="800px" align="center" clear="both">
+<img src="figures/similar_meaning_or_role/2.png" width="800px" align="center" clear="both">
+<img src="figures/similar_meaning_or_role/3.png" width="800px" align="center" clear="both">
+<img src="figures/similar_meaning_or_role/4.png" width="800px" align="center" clear="both">
+<img src="figures/similar_meaning_or_role/5.png" width="800px" align="center" clear="both">
+
+### Polarity (Positive)
+<img src="figures/positive/1.png" width="800px" align="center" clear="both">
+<img src="figures/positive/2.png" width="800px" align="center" clear="both">
+
+### Polarity (Negative)
+<img src="figures/negative/1.png" width="800px" align="center" clear="both">
+<img src="figures/negative/2.png" width="800px" align="center" clear="both">
 
 ---
 
