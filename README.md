@@ -15,7 +15,9 @@ We show that **several information in the given text are not distributed across 
 ---
 # Visualizing Individual Units
 
-In this work, we align three _natural language concepts_ per unit. Most units are selectively responsive to the concepts we align. If you want to see the full results, see [Full visualization results](#(optional)-Full-visualization-results).
+In this work, we align three _natural language concepts_ per unit. Most units are selectively responsive to the concepts we align. If you want to see the full results, see [Optional-Full Visualization Results](#optional-full-visualization-results).
+
+.
 
 ## Natural Language Concepts
 
@@ -25,9 +27,9 @@ In this work, we align three _natural language concepts_ per unit. Most units ar
 <img src="figures/natural_language/4.png" width="800px" align="center" clear="both">
 <img src="figures/natural_language/5.png" width="800px" align="center" clear="both">
 
-## Concepts that goes beyond natural language form
+## Concepts that go beyond natural language form
 
-We also discovered that several units tend to capture the concepts that goes beyond natural langauge form. Although it is relatively hard to _quantify_ it, we belive that further investigation would be an interesting future direction. We visualize some units that capture abstract form concepts as follows:
+We also discovered that several units tend to capture the concepts that go beyond natural langauge form. Although it is relatively hard to _quantify_ it, we belive that further investigation would be one of interesting future direction. We visualize some units that capture abstract form concepts as follows:
 
 ### Number
 <img src="figures/number/1.png" width="800px" align="center" clear="both">
@@ -96,11 +98,13 @@ pip install requirements.txt
 ```
 
 
-## Running visualization code
+## Running Visualization Code
 ```
 cd script
 bash run.sh 
 ```
+
+or download **(TODO)**
 
 Visualization results are saved at `visualization/`.
 
