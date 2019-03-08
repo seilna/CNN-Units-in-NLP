@@ -110,7 +110,7 @@ cd script
 bash download_visualization.sh
 ```
 
-or [link](https://drive.google.com/open?id=136RtLeKwQHvhxH04rLt_ZiVImeDUdvpV)
+or [google drive link](https://drive.google.com/open?id=136RtLeKwQHvhxH04rLt_ZiVImeDUdvpV)
 
 ---
 # Reference
