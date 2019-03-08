@@ -4,7 +4,7 @@
 
 This repository contains an implementation of our ICLR 2019 paper;
 
-* [Seil Na](seilna.github.io), [Yo Joong Choe](https://yjchoe.github.io/), [Dong-Hyun Lee](https://scholar.google.com/citations?user=Iw-G2qIAAAAJ&hl=en) and [Gunhee Kim](http://vision.snu.ac.kr/~gunhee/). [Discovery of Natural Language Concepts in Individual Units of CNNs](https://openreview.net/forum?id=S1EERs09YQ)
+* [Seil Na](https://seilna.github.io), [Yo Joong Choe](https://yjchoe.github.io/), [Dong-Hyun Lee](https://scholar.google.com/citations?user=Iw-G2qIAAAAJ&hl=en) and [Gunhee Kim](http://vision.snu.ac.kr/~gunhee/). [Discovery of Natural Language Concepts in Individual Units of CNNs](https://openreview.net/forum?id=S1EERs09YQ)
 
 **TL;DR**: Individual units of deep CNNs learned in NLP tasks (e.g. translation, classification) could act as a natural language concept detector.
 
