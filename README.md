@@ -72,7 +72,7 @@ If you want to get the results without running the code, skip these parts and go
 
 ## Prerequisites
 * Python 2.7
-* Tensorflow 1.10+
+* tensorflow-gpu==1.10.0
 
 ## Download
 * Clone the code from GitHub.
@@ -80,9 +80,10 @@ If you want to get the results without running the code, skip these parts and go
 git clone https://github.com/seilna/CNN-Units-in-NLP.git
 ```
 
-* Install dependencies
+* Create environment via [`conda`](https://www.anaconda.com/distribution/) & downlaod spacy (english) model
 ```
-pip install requirements.txt
+conda env create -f environment.yml
+python -m spacy download en
 ```
 
 * Download training data & pretrained models (**~160GB space**)
@@ -107,9 +108,8 @@ cd script
 bash download_visualization.sh
 ```
 
-or
+or [link](https://drive.google.com/open?id=136RtLeKwQHvhxH04rLt_ZiVImeDUdvpV)
 
-[download](https://drive.google.com/open?id=136RtLeKwQHvhxH04rLt_ZiVImeDUdvpV)
 ---
 # Reference
 If you find the code useful, please cite the following paper.

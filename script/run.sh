@@ -1,9 +1,49 @@
 #!/bin/sh
 
+PS3='Please enter the nubmer of the task: '
+options=("en-fr-news" "en-de-news" "en-cs-news" "en-de-europarl" "dbpedia" "yelp" "ag")
+select opt in "${options[@]}"
+do
+    case $opt in
+        "en-fr-news")
+            echo "you chose en-fr-news"
+            task="en-fr-news"
+            break
+            ;;
+        "en-de-news")
+            echo "you chose en-de-news"
+            task="en-de-news"
+            break
+            ;;
+        "en-cs-news")
+            echo "you chose en-cs-news"
+            task="en-cs-news"
+            break
+            ;;
+        "en-de-europarl")
+            echo "you chose en-de-europarl"
+            task="en-de-europarl"
+            break
+            ;;
+        "dbpedia")
+            echo "you chose dbpedia"
+            task="dbpedia"
+            break
+            ;;
+        "yelp")
+            echo "you chose yelp"
+            task="yelp"
+            break
+            ;;
+        "ag")
+            echo "you chose ag"
+            task="ag"
+            break
+            ;;
+        *) echo "invalid option $REPLY";;
+    esac
+done
 
-
-
-task=$1
 top_k=10
 num_units=1024
 
@@ -45,7 +85,6 @@ fi
 
 cd ../code
 
-: '
 # Step 1. Feed all training sentences and save their activation values
 if [[ $task == *"en-"* ]]; then
     for bucket in 50 100 150 200
@@ -63,7 +102,6 @@ for ((layer=0;layer<$num_layers;layer++));
 do
     python top_activated_sentences.py --layer=$layer --top_k=$top_k --task=$problem --model_name=$task &
 done
-'
 
 wait
 # Step 3. Align `--num_align` concepts to each unit (`--num_units`: # of units to align concepts)
