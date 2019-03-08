@@ -1,3 +1,5 @@
+absl-py==0.1.13
+adjustText==0.7.2
 alabaster==0.7.10
 anaconda-client==1.6.5
 anaconda-navigator==1.6.9
@@ -14,6 +16,8 @@ backports.shutil-get-terminal-size==1.0.0
 backports.ssl-match-hostname==3.5.0.1
 backports.weakref==1.0.post1
 basemap==1.0.7
+bcolz==1.2.1
+beautifulsoup4==4.6.0
 benepar==0.0.3
 bitarray==0.8.1
 bkcharts==0.2
@@ -22,6 +26,7 @@ bleach==1.5.0
 bokeh==0.12.10
 boto==2.48.0
 Bottleneck==1.2.1
+bullet==2.0.0
 bz2file==0.98
 cachetools==2.1.0
 cdecimal==2.3
@@ -79,6 +84,7 @@ gunicorn==19.9.0
 gym==0.10.5
 h5py==2.8.0
 heapdict==1.0.0
+hickle==2.1.0
 html5lib==0.9999999
 httplib2==0.11.3
 hypothesis==2.0.0

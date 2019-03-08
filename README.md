@@ -10,7 +10,7 @@ This repository contains an implementation of our ICLR 2019 paper;
 
 This work covers the interpretability of Deep Neural Network. We expect that it sheds useful light on how the representation of Deep CNNs learned in language tasks represents the given text.
 
-We show that **several information in the given text are not distributed across all units**. We observe AND quantify that **even a single unit** can act as a _natural language concept (e.g. morpheme, word, phrase)_ detector.
+We show that **several information in the given text are not distributed across all units of representation**. We observe AND quantify that **even a single unit** can act as a _natural language concept (e.g. morpheme, word, phrase)_ detector.
 
 ---
 # Visualizing Individual Units
@@ -70,18 +70,19 @@ We also discovered that several units tend to capture the concepts that go beyon
 # Run
 If you want to get the results without running the code, skip these parts and go to [Optional-Full Visualization Results](#optional-full-visualization-results).
 
-
-
 ## Prerequisites
-
 * Python 2.7
 * Tensorflow 1.10+
 
 ## Download
-
 * Clone the code from GitHub.
 ```
 git clone https://github.com/seilna/CNN-Units-in-NLP.git
+```
+
+* Install dependencies
+```
+pip install requirements.txt
 ```
 
 * Download training data & pretrained models (**~160GB space**)
@@ -90,12 +91,6 @@ cd script
 bash setup.sh 
 ```
 
-* Install dependencies
-```
-pip install requirements.txt
-```
-
-
 ## Running Visualization Code
 ```
 cd script
@@ -103,7 +98,7 @@ bash run.sh
 ```
 will save visualization results at `visualization/`.
 
-or download **(TODO)**
+or skip to [Optional-Full Visualization Results](#optional-full-visualization-results).
 
 
 ## Optional-Full Visualization Results 
@@ -112,10 +107,11 @@ cd script
 bash download_visualization.sh
 ```
 
+or
+
+[download](https://drive.google.com/open?id=136RtLeKwQHvhxH04rLt_ZiVImeDUdvpV)
 ---
-
 # Reference
-
 If you find the code useful, please cite the following paper.
 
 ```
@@ -130,7 +126,6 @@ If you find the code useful, please cite the following paper.
 ```
 
 ---
-
 # Acknowledgements
 
 We appreciate <a href="http://vision.snu.ac.kr/people/insujeon.html">Insu Jeon</a>, <a href="https://j-min.io/">Jaemin Cho</a>, <a href="https://shmsw25.github.io/">Sewon Min</a>, <a href="https://yunseokjang.github.io/">Yunseok Jang</a> and the anonymous reviewers for their helpful comments and discussions. This work was supported by <a href="https://www.kakaocorp.com/">Kakao</a> and <a href="http://kakaobrain.com/">Kakao Brain</a> corporations, IITP grant funded by the Korea government (MSIT) (No. 2017-0-01772) and Creative Pioneering Researchers Program through Seoul National University.
@@ -140,4 +135,3 @@ We appreciate <a href="http://vision.snu.ac.kr/people/insujeon.html">Insu Jeon</
 Have any question? Please contact:
 
 `seil.na@vision.snu.ac.kr`
-

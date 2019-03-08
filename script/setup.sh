@@ -1,6 +1,6 @@
 #!/bin/sh
 
-python download.py `id` setup.zip
+python download.py 1FzyRIJHrIEk480_WrLeXcfg58XJIFwOY setup.zip
 unzip setup.zip
 rm setup.zip
 

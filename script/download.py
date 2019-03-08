@@ -1,12 +1,5 @@
 import requests
 from tqdm import tqdm
-
-"""
-Excerpt from
-https://github.com/seilna/RWMN
-"""
-
-
 def download_file_from_google_drive(id, destination):
     def get_confirm_token(response):
         for key, value in response.cookies.items():
@@ -26,20 +19,19 @@ def download_file_from_google_drive(id, destination):
 
     session = requests.Session()
 
-    response = session.get(URL, params={'id': id}, stream=True)
+    response = session.get(URL, params = { 'id' : id }, stream = True)
     token = get_confirm_token(response)
 
     if token:
-        params = {'id': id, 'confirm': token}
-        response = session.get(URL, params=params, stream=True)
+        params = { 'id' : id, 'confirm' : token }
+        response = session.get(URL, params = params, stream = True)
 
-    save_response_content(response, destination)
-
+    save_response_content(response, destination)    
 
 if __name__ == "__main__":
     import sys
     if len(sys.argv) is not 3:
-        print("Usage: python google_drive.py drive_file_id destination_file_path")
+        print "Usage: python google_drive.py drive_file_id destination_file_path"
     else:
         # TAKE ID FROM SHAREABLE LINK
         file_id = sys.argv[1]
