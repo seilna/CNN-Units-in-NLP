@@ -73,6 +73,8 @@ If you want to get the results without running the code, skip these parts and go
 ## Prerequisites
 * Python 2.7
 * tensorflow-gpu==1.10.0
+* [anaconda](https://www.anaconda.com/distribution/) (Python 2.7 version)
+
 
 ## Download
 * Clone the code from GitHub.
@@ -80,7 +82,7 @@ If you want to get the results without running the code, skip these parts and go
 git clone https://github.com/seilna/CNN-Units-in-NLP.git
 ```
 
-* Create environment via [`conda`](https://www.anaconda.com/distribution/) & downlaod spacy (english) model
+* Create environment via `conda` & downlaod spacy (english) model
 ```
 conda env create -f environment.yml
 python -m spacy download en
