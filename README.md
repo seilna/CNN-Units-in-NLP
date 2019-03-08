@@ -88,8 +88,6 @@ conda activate iclr_19_na
 python -m spacy download en
 ```
 
-* (In Progress) Create environment via **`docker`**
-
 
 * Download training data & pretrained models (**~160GB space**)
 ```
