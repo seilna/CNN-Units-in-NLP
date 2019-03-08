@@ -68,7 +68,7 @@ We also discovered that several units tend to capture the concepts that go beyon
 ---
 
 # Run
-If you want to get the results without running the code, skip these parts and go to [Optional-Full Visualization Results](#optional-full-visualization-results).
+If you want to get the results without running the code, skip these parts and see [Optional-Full Visualization Results](#optional-full-visualization-results).
 
 ## Prerequisites
 * Python 2.7
