@@ -17,8 +17,6 @@ We show that **several information in the given text are not distributed across 
 
 In this work, we align three _natural language concepts_ per unit. Most units are selectively responsive to the concepts we align. If you want to see the full results, see [Optional-Full Visualization Results](#optional-full-visualization-results).
 
-.
-
 ## Natural Language Concepts
 
 <img src="figures/natural_language/1.png" width="800px" align="center" clear="both">
@@ -103,10 +101,10 @@ pip install requirements.txt
 cd script
 bash run.sh 
 ```
+will save visualization results at `visualization/`.
 
 or download **(TODO)**
 
-Visualization results are saved at `visualization/`.
 
 ## Optional-Full Visualization Results 
 ```
