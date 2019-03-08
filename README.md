@@ -72,8 +72,7 @@ If you want to get the results without running the code, skip these parts and go
 
 ## Prerequisites
 * Python 2.7
-* tensorflow-gpu==1.10.0
-* [anaconda](https://www.anaconda.com/distribution/) (Python 2.7 version)
+* [anaconda](https://www.anaconda.com/distribution/) (Python 2.7 version, latest version recommended)
 
 
 ## Download
@@ -85,8 +84,12 @@ git clone https://github.com/seilna/CNN-Units-in-NLP.git
 * Create environment via `conda` & downlaod spacy (english) model
 ```
 conda env create -f environment.yml
+conda activate iclr_19_na
 python -m spacy download en
 ```
+
+* (In Progress) Create environment via **`docker`**
+
 
 * Download training data & pretrained models (**~160GB space**)
 ```
@@ -129,8 +132,9 @@ If you find the code useful, please cite the following paper.
 
 ---
 # Acknowledgements
+Each model used in our experiments is implemented based on [this](https://github.com/paarthneekhara/byteNet-tensorflow) and [this](https://github.com/zonetrooper32/VDCNN) repository. We thank the authors.
 
-We appreciate <a href="http://vision.snu.ac.kr/people/insujeon.html">Insu Jeon</a>, <a href="https://j-min.io/">Jaemin Cho</a>, <a href="https://shmsw25.github.io/">Sewon Min</a>, <a href="https://yunseokjang.github.io/">Yunseok Jang</a> and the anonymous reviewers for their helpful comments and discussions. This work was supported by <a href="https://www.kakaocorp.com/">Kakao</a> and <a href="http://kakaobrain.com/">Kakao Brain</a> corporations, IITP grant funded by the Korea government (MSIT) (No. 2017-0-01772) and Creative Pioneering Researchers Program through Seoul National University.
+We also appreciate <a href="http://vision.snu.ac.kr/people/insujeon.html">Insu Jeon</a>, <a href="https://j-min.io/">Jaemin Cho</a>, <a href="https://shmsw25.github.io/">Sewon Min</a>, <a href="https://yunseokjang.github.io/">Yunseok Jang</a> and the anonymous reviewers for their helpful comments and discussions. This work was supported by <a href="https://www.kakaocorp.com/">Kakao</a> and <a href="http://kakaobrain.com/">Kakao Brain</a> corporations, IITP grant funded by the Korea government (MSIT) (No. 2017-0-01772) and Creative Pioneering Researchers Program through Seoul National University.
 
 ---
 # Contact
