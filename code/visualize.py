@@ -66,6 +66,8 @@ def write_html(task, layer, alignment, num_units, num_align, tas):
             content = html_per_tas(unit, tas, alignment, 5, 100)
             f.write(content)
 
+    print 'Visualization result are saved at %s' % os.path.abspath(fname)
+
 
 if __name__ == '__main__':
 
